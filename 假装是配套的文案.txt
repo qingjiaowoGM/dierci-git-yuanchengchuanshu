@@ -19,3 +19,17 @@ git  reflog
 git  reset  --hard  ID               /  /id是查看时备注前面的id号
 
 
+
+关于远程仓库命令：
+git remote add origin           /  /  建立关联
+
+git push origin （库内建立的分支名，如我在github上建立的 main） //把本地推送到远程
+
+git pull origin （同上，以main为例） //将远程仓库内的main分支下的拉到本地文件夹
+
+
+git remote remove origin       / /解除关联
+
+
+
+
