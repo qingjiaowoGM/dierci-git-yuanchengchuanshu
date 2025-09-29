@@ -1,0 +1,21 @@
+现在去txt里面写一些故作高深的内容在此尝试
+顺带记录我都输入了什么代码
+git remote add origin https://github.com/qingjiaowu/dierci-git-yuanchengchaishu.git
+git branch -M main
+git push -u origin main
+
+然后浏览器登录就登陆上了。
+
+还有哪些命令：
+建立初始化仓库：
+git init
+
+运输到本地仓库：
+git add  .                                   /  /小推车暂存区
+git commit -m "备份说明"       /  /运送到仓库 版本库
+
+查看版本记录：
+git  reflog
+git  reset  --hard  ID               /  /id是查看时备注前面的id号
+
+
